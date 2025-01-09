@@ -77,12 +77,12 @@ const Navbar = () => {
       >
         <div className="flex lg:flex-1">
           <Link to={"/"} className="-m-1.5 p-1.5">
-            <span className="font-bold text-2xl">Abaca</span>
-            {/* <img
+            {/* <span className="font-bold text-2xl">Abaca</span> */}
+            <img
               alt=""
-              src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-              className="h-8 w-auto"
-            /> */}
+              src="/ABACA LOGO-01.png"
+              className="h-14 w-auto"
+            />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -194,10 +194,10 @@ const Navbar = () => {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Abaca</span>
               <img
                 alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                src="/ABACA LOGO-02.png"
                 className="h-8 w-auto"
               />
             </a>
