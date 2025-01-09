@@ -16,6 +16,9 @@ export default {
       animation: {
         shine: "shine 5s linear infinite",
       },
+      fontFamily: {
+        sans: ["Circular", "Helvetica", "sans-serif"], // Custom font stack
+      },
     },
   },
   plugins: [],

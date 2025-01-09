@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 "use client";
 
 import { useState } from "react";
@@ -70,14 +70,14 @@ const callsToAction = [
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="bg-white">
+    <header className="bg-white relative z-10">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl  items-center justify-between p-6 lg:px-8 "
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="font-bold text-2xl">Abacca</span>
+            <span className="font-bold text-2xl">Abaca</span>
             {/* <img
               alt=""
               src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
@@ -96,7 +96,7 @@ const Navbar = () => {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Popover className="relative">
+          {/* <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
               Product
               <ChevronDownIcon
@@ -150,16 +150,25 @@ const Navbar = () => {
                 ))}
               </div>
             </PopoverPanel>
-          </Popover>
+          </Popover> */}
 
+          <Link to={'/'} className="text-sm/6 font-semibold text-gray-900">
+            Home
+          </Link>
+          <Link to={'#'} className="text-sm/6 font-semibold text-gray-900">
+            New Arrivals
+          </Link>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Features
+            Men
           </a>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Marketplace
+            Women
           </a>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Company
+            Kids
+          </a>
+          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            Festival Collection
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">

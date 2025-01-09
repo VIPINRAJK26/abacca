@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,12 +8,13 @@ const Footer = () => {
         <div className="md:pl-28">
           <h3 className="text-lg font-bold mb-4">CATEGORIES</h3>
           <ul className="space-y-2">
-            <li>Sandals</li>
-            <li>Flip Flop</li>
-            <li>Slipper</li>
-            <li>Clogs</li>
-            <li>Casual Shoes</li>
-            <li>Sports Shoes</li>
+            <Link to={"/"}>
+              <li>Home</li>
+            </Link>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
+            <li>Festival Collection</li>
           </ul>
         </div>
 
@@ -23,7 +25,9 @@ const Footer = () => {
             <li>About Us</li>
             <li>E-Shopping</li>
             <li>Customer Service</li>
-            <li>Contact Us</li>
+            <Link to={"/contact"}>
+              <li>Contact Us</li>
+            </Link>
             <li>Store Locator</li>
           </ul>
         </div>
@@ -32,11 +36,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold mb-4">GET IN TOUCH</h3>
           <address className="not-italic space-y-2">
-            <p>Abacca</p>
-            <p>An Initiative Of Abacca EXPORT AND IMPORT</p>
-            <p>8/625 A-9, Stylo Export And Import,</p>
-            <p>Parammal, Perumanna, Kozhikode, Kerala, 673026</p>
-            <p>+91 94000 35584</p>
+            <p>ABACA POLYMERS</p>
+            <p>11/544-D, Mamyal Mathil, Kozhikodenkunnu,</p>
+            <p>Olavanna PO, Kozhikode, Kerala- 673019</p>
+            <p>abacafootwear@gmail.com </p>
           </address>
         </div>
       </div>
@@ -64,19 +67,19 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="container mx-auto mt-8 text-center text-sm border-t border-gray-400 pt-4">
-        <p>Copyright © 2024 Abacca. All Rights Reserved | Powered by Exmedia</p>
+        <p>Copyright © 2024 Abaca. All Rights Reserved | Powered by Exmedia</p>
         <p>
-          <a href="#" className="hover:underline">
+          <Link to={"/privacy"}  className="hover:underline">
             Privacy Policy
-          </a>{" "}
+          </Link>{" "}
           |{" "}
-          <a href="#" className="hover:underline">
+          <Link to={"/terms"}  className="hover:underline">
             Terms & Conditions
-          </a>{" "}
+          </Link>{" "}
           |{" "}
-          <a href="#" className="hover:underline">
+          <Link to={"/refund"} className="hover:underline">
             Refund Policy
-          </a>
+          </Link>
         </p>
       </div>
     </footer>

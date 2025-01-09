@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 
 const HeroCarousel = () => {
@@ -15,7 +14,7 @@ const HeroCarousel = () => {
 
   const slides = [
     {
-      title: "Welcome to Abacca Footwear",
+      title: "Welcome to Abaca Footwear",
       subtitle: "Your one-stop destination for premium footwear.",
       image:
         "https://img.freepik.com/free-photo/background-gradient-lights_23-2149304984.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid", // Replace with your image
@@ -45,7 +44,7 @@ const HeroCarousel = () => {
                 backgroundImage: `url(${slide.image})`,
               }}
             >
-              <div className="text-center bg-black bg-opacity-50 p-8 rounded-lg max-w-4xl">
+              <div className="text-center bg-black bg-opacity-50 p-8 m-10 md:m-0 rounded-lg max-w-4xl">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
                   {slide.title}
                 </h1>
