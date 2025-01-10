@@ -5,7 +5,15 @@ import { Field, Label, Switch } from "@headlessui/react";
 const ContactUs = () => {
     const [agreed, setAgreed] = useState(false);
   return (
-    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate md:flex bg-white px-6 py-24 sm:py-32 lg:px-8">
+      <div className="md:pt-16 md:pl-32 md:pr-5 pb-14 md:pb-0">
+        <h2 className="font-bold pb-2">Address</h2>
+        <p>ABACA POLYMERS</p>
+        <p>11/544-D, Mamyal Mathil, Kozhikodenkunnu, </p>
+        <p>Olavanna PO, Kozhikode, Kerala- 673019</p>
+        <p>contact No: 9633822757</p>
+        <p>email: abacafootwear@gmail.com</p>
+      </div>
       <div>
         <div
           aria-hidden="true"
@@ -182,12 +190,6 @@ const ContactUs = () => {
             </button>
           </div>
         </form>
-      </div>
-      <div className="pt-16 md:pl-32">
-        <h2 className="font-bold pb-2">Address</h2>
-        <p>ABACA POLYMERS</p>
-        <p>11/544-D, Mamyal Mathil, Kozhikodenkunnu, </p>
-        <p>Olavanna PO, Kozhikode, Kerala- 673019</p>
       </div>
     </div>
   );
