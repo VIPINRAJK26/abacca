@@ -227,7 +227,7 @@ const PrivacyPolicy = () => {
               href="mailto:abacafootwear@gmail.com"
               className="text-blue-500 underline"
             >
-              abacafootwear@gmail.com
+              abacapolymer@gamil.com
             </a>
             .
           </p>

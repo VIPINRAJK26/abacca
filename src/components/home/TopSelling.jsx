@@ -16,7 +16,7 @@ const TopSelling = () => {
         </div>
         <div className="border-2 m-8 md:m-0 rounded-full bg-white shadow-md hover:scale-[110%] transition-all ease-in-out">
           <img
-            src="https://img.freepik.com/free-photo/shot-elegant-beautiful-leather-heels-isolated-white_181624-32574.jpg?t=st=1736323953~exp=1736327553~hmac=d1bb35818688a1ed01eed85e2c494dbf203f596de9a29e551111a9783b33918a&w=740"
+            src="/top_selling_5.jpg"
             alt=""
             className="p-5 rounded-full hover:scale-[115%] transition-all ease-in-out"
           />

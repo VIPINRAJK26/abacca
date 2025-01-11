@@ -2,7 +2,7 @@ const ShopNow = () => {
   return (
     <div className="py-10">
       <h2 className="text-center text-3xl font-bold py-5 text-[#202124]">
-        Shop Now
+        Our Collections
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5  p-3 md:p-0 justify-center items-center md:mx-32">
         <div

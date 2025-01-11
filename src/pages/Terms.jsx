@@ -228,10 +228,10 @@ const TermsAndConditions = () => {
               Website. Further, You may report such offensive content at the
               email address{" "}
               <a
-                href="mailto:abacafootwear@gmail.com"
+                href="mailto:abacapolymer@gamil.com"
                 className="text-blue-500 underline"
               >
-                abacafootwear@gmail.com
+                abacapolymer@gamil.com
               </a>
             </li>
           </ul>

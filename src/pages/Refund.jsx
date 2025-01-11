@@ -89,10 +89,10 @@ const RefundPolicy = () => {
         <li>
           By email:{" "}
           <a
-            href="mailto:abacafootwear@gmail.com"
+            href="mailto:abacapolymer@gamil.com"
             className="text-blue-600 underline"
           >
-            abacafootwear@gmail.com
+            abacapolymer@gamil.com
           </a>
         </li>
       </ul>
@@ -156,10 +156,10 @@ const RefundPolicy = () => {
         673019
         <br />
         <a
-          href="mailto:abacafootwear@gmail.com"
+          href="mailto:abacapolymer@gamil.com"
           className="text-blue-600 underline"
         >
-          abacafootwear@gmail.com
+          abacapolymer@gamil.com
         </a>
       </address>
       <p className="mb-4">
@@ -178,10 +178,10 @@ const RefundPolicy = () => {
         <li>
           By email:{" "}
           <a
-            href="mailto:abacafootwear@gmail.com"
+            href="mailto:abacapolymer@gamil.com"
             className="text-blue-600 underline"
           >
-            abacafootwear@gmail.com
+            abacapolymer@gamil.com
           </a>
         </li>
       </ul>

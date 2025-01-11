@@ -10,8 +10,8 @@ const AboutUs = () => {
     >
       <div className="bg-gray-200 rounded-2xl shadow-sm py-14 h-[25.8rem] items-center content-center">
         <div className="">
-          <h1 className="text-center text-3xl font-bold ">About Us</h1>
-          <p className="w-2/3 text-lg text-justify mx-auto pt-5 leading-7">
+          {/* <h1 className="text-center text-3xl font-bold ">About Us</h1> */}
+          <p className="w-2/3 text-xl text-justify mx-auto  leading-7">
             Abaca Footwear is a leading manufacturer and distributor of
             high-quality, stylish, and durable footwear for men, women, and
             kids. Catering to diverse tastes and needs, Abaca offers a wide

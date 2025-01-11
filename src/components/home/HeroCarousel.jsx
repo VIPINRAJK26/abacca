@@ -14,23 +14,15 @@ const HeroCarousel = () => {
 
   const slides = [
     {
-      title: "Welcome to Abaca Footwear",
-      subtitle: "Your one-stop destination for premium footwear.",
       image: "/hero-1.jpg", // Replace with your image
     },
     {
-      title: "Explore Our Latest Collection",
-      subtitle: "Trendy styles for every occasion.",
       image: "/hero-4.jpg", // Replace with your image
     },
     {
-      title: "Comfort Meets Style",
-      subtitle: "Step into a world of unmatched comfort.",
       image: "/hero-3.jpg", // Replace with your image
     },
     {
-      title: "Comfort Meets Style",
-      subtitle: "Step into a world of unmatched comfort.",
       image: "/hero-4.jpg", // Replace with your image
     },
   ];
@@ -46,12 +38,12 @@ const HeroCarousel = () => {
                 backgroundImage: `url(${slide.image})`,
               }}
             >
-              <div className="text-center bg-black bg-opacity-50 p-8 m-10 md:m-0 rounded-lg max-w-4xl">
+              {/* <div className="text-center bg-black bg-opacity-50 p-8 m-10 md:m-0 rounded-lg max-w-4xl">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
                   {slide.title}
                 </h1>
                 <p className="text-lg md:text-2xl">{slide.subtitle}</p>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

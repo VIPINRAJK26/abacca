@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-8">
+    <footer className="bg-[#004A69] text-white py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Categories Section */}
         <div className="md:pl-28">
@@ -69,11 +69,11 @@ const Footer = () => {
       <div className="container mx-auto mt-8 text-center text-sm border-t border-gray-400 pt-4">
         <p>Copyright © 2024 Abaca. All Rights Reserved | Powered by Exmedia</p>
         <p>
-          <Link to={"/privacy"}  className="hover:underline">
+          <Link to={"/privacy"} className="hover:underline">
             Privacy Policy
           </Link>{" "}
           |{" "}
-          <Link to={"/terms"}  className="hover:underline">
+          <Link to={"/terms"} className="hover:underline">
             Terms & Conditions
           </Link>{" "}
           |{" "}

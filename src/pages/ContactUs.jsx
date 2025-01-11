@@ -11,8 +11,8 @@ const ContactUs = () => {
         <p>ABACA POLYMERS</p>
         <p>11/544-D, Mamyal Mathil, Kozhikodenkunnu, </p>
         <p>Olavanna PO, Kozhikode, Kerala- 673019</p>
-        <p>contact No: 9633822757</p>
-        <p>email: abacafootwear@gmail.com</p>
+        <p>contact No: +91 9633822757</p>
+        <p>email: abacapolymer@gamil.com</p>
       </div>
       <div>
         <div
