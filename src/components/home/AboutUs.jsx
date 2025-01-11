@@ -23,9 +23,9 @@ const AboutUs = () => {
       </div>
       <div>
         <img
-          src="/about-1.jpg"
+          src="/about-2.jpg"
           alt=""
-          className="rounded-2xl "
+          className="rounded-2xl  md:h-[96%] "
         />
       </div>
     </div>

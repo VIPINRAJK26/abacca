@@ -12,7 +12,7 @@ const ShopNow = () => {
           data-aos-delay="500"
         >
           <img
-            src="https://img.freepik.com/free-vector/flat-design-summer-sale-banner-template-with-3d-illustration_1361-1877.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid"
+            src="/shop_now-1.jpg"
             alt=""
             className="hover:scale-[105%] ease-in-out duration-300 all"
           />
@@ -24,7 +24,7 @@ const ShopNow = () => {
           data-aos-delay="500"
         >
           <img
-            src="https://img.freepik.com/free-vector/flat-design-summer-sale-banner-template-with-3d-illustration_1361-1877.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid"
+            src="/shop_now_2.jpg"
             alt=""
             className="hover:scale-[105%] ease-in-out duration-300 all"
           />
@@ -36,7 +36,7 @@ const ShopNow = () => {
           data-aos-delay="500"
         >
           <img
-            src="https://img.freepik.com/free-vector/flat-design-summer-sale-banner-template-with-3d-illustration_1361-1877.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid"
+            src="/shop_now_3.jpg"
             alt=""
             className="hover:scale-[105%] ease-in-out duration-300 all"
           />
