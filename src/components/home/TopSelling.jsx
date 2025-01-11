@@ -9,7 +9,7 @@ const TopSelling = () => {
       <div className="container md:px-32 mx-auto grid grid-cols-1 md:grid-cols-5 gap-5 justify-center">
         <div className="border-2 m-8 md:m-0 rounded-full bg-white shadow-md hover:scale-[110%] transition-all ease-in-out">
           <img
-            src="https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid"
+            src="/top_selling_1.jpg"
             alt=""
             className="p-5 rounded-full hover:scale-[115%] transition-all ease-in-out"
           />
@@ -23,21 +23,21 @@ const TopSelling = () => {
         </div>
         <div className="border-2 m-8 md:m-0 rounded-full bg-white shadow-md hover:scale-[110%] transition-all ease-in-out">
           <img
-            src="https://img.freepik.com/premium-photo/original-black-mens-sports-shoes-isolated_94064-692.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid"
+            src="/top_selling_2.jpg"
             alt=""
             className="p-5 rounded-full hover:scale-[115%] transition-all ease-in-out"
           />
         </div>
         <div className="border-2 m-8 md:m-0 rounded-full bg-white shadow-md hover:scale-[110%] transition-all ease-in-out">
           <img
-            src="https://img.freepik.com/free-vector/color-sport-sneaker_98292-3191.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid"
+            src="/top_selling_3.jpg"
             alt=""
             className="p-5 rounded-full hover:scale-[115%] transition-all ease-in-out"
           />
         </div>
         <div className="border-2 m-8 md:m-0 rounded-full bg-white shadow-md hover:scale-[110%] transition-all ease-in-out">
           <img
-            src="https://img.freepik.com/premium-photo/pair-new-blue-sneakers-isolated-white-background_461160-3046.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid"
+            src="/top_selling_4.jpg"
             alt=""
             className="p-5 rounded-full hover:scale-[115%] transition-all ease-in-out"
           />

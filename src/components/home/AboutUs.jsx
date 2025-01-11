@@ -8,7 +8,7 @@ const AboutUs = () => {
       data-aos-duration="1500"
       data-aos-delay="500"
     >
-      <div className="bg-gray-200 rounded-2xl shadow-sm py-14 items-center content-center">
+      <div className="bg-gray-200 rounded-2xl shadow-sm py-14 h-[25.8rem] items-center content-center">
         <div className="">
           <h1 className="text-center text-3xl font-bold ">About Us</h1>
           <p className="w-2/3 text-lg text-justify mx-auto pt-5 leading-7">
@@ -23,9 +23,9 @@ const AboutUs = () => {
       </div>
       <div>
         <img
-          src="https://img.freepik.com/free-psd/shoes-sale-social-media-post-square-banner-template-design_505751-3730.jpg?t=st=1736403974~exp=1736407574~hmac=8c79d4424ee190db897f07e1a1ed4b9b87ea694b9f23602b7e51a741f1dd56cc&w=740"
+          src="/about-1.jpg"
           alt=""
-          className="rounded-2xl"
+          className="rounded-2xl "
         />
       </div>
     </div>

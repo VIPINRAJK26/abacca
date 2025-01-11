@@ -16,20 +16,22 @@ const HeroCarousel = () => {
     {
       title: "Welcome to Abaca Footwear",
       subtitle: "Your one-stop destination for premium footwear.",
-      image:
-        "https://img.freepik.com/free-photo/background-gradient-lights_23-2149304984.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid", // Replace with your image
+      image: "/hero-1.jpg", // Replace with your image
     },
     {
       title: "Explore Our Latest Collection",
       subtitle: "Trendy styles for every occasion.",
-      image:
-        "https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2514.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid", // Replace with your image
+      image: "/hero-4.jpg", // Replace with your image
     },
     {
       title: "Comfort Meets Style",
       subtitle: "Step into a world of unmatched comfort.",
-      image:
-        "https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2430.jpg?ga=GA1.1.1208105082.1712396076&semt=ais_hybrid", // Replace with your image
+      image: "/hero-3.jpg", // Replace with your image
+    },
+    {
+      title: "Comfort Meets Style",
+      subtitle: "Step into a world of unmatched comfort.",
+      image: "/hero-4.jpg", // Replace with your image
     },
   ];
 
