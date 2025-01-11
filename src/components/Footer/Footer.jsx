@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FaPhone } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -40,6 +42,11 @@ const Footer = () => {
             <p>11/544-D, Mamyal Mathil, Kozhikodenkunnu,</p>
             <p>Olavanna PO, Kozhikode, Kerala- 673019</p>
             <p>abacapolymer@gamil.com </p>
+            <p className="flex items-center gap-2">
+              <FaWhatsapp  />
+              <FaPhone  />
+              <span>+91 9633822757</span>
+            </p>
           </address>
         </div>
       </div>
