@@ -39,7 +39,7 @@ const Footer = () => {
             <p>ABACA POLYMERS</p>
             <p>11/544-D, Mamyal Mathil, Kozhikodenkunnu,</p>
             <p>Olavanna PO, Kozhikode, Kerala- 673019</p>
-            <p>abacafootwear@gmail.com </p>
+            <p>abacapolymer@gamil.com </p>
           </address>
         </div>
       </div>
