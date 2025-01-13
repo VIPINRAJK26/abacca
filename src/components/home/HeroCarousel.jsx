@@ -35,7 +35,7 @@ const HeroCarousel = () => {
             <img
               src={slide}
               alt={`Slide ${index + 1}`}
-              className="absolute block w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
         ))}
